@@ -21,10 +21,18 @@ body{
 }
 .header-title{
     color: #FECD23;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.9rem;
 
 }
 
 .header-subtitle{
-    color: white
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0.3rem;
 
 }
