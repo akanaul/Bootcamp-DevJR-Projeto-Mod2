@@ -3,15 +3,28 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
+    background-image: linear-gradient(#0D0011,#651F71);
+    margin:auto;
+
+    width: 800px;
+
+    box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+
+
 
 }
 .header{
+    padding: 0.9rem;
 
 }
 .header-title{
+    color: #FECD23;
 
 }
 
 .header-subtitle{
-    
+    color: white
+
 }
