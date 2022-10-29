@@ -2,6 +2,22 @@ body{
     background-color: #CCCCCC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+input{
+    width: 75%;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: 0;
+    margin:  25px auto;
+    display: block;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #651F71;
+}
+
 .container{
     background-image: linear-gradient(#0D0011,#651F71);
     margin:auto;
@@ -25,7 +41,6 @@ body{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 0.9rem;
-
 }
 
 .header-subtitle{
@@ -34,5 +49,49 @@ body{
     text-align: center;
     padding: 0.5rem;
     margin-bottom: 0.3rem;
+}
+
+.brinde{
+    font-weight: 700;
+}
+.secondary-container{
+    background-image: linear-gradient(#651F71,#0D0011);
+    margin:auto;
+
+
+    width: 750px;
+
+    border-radius: 5px;
+    overflow: hidden;
 
 }
+.secondary-title{
+    color: white;
+    font-weight: 500;
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.third-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image-container{
+    background-image: linear-gradient(#3B59EE,#78E2FF);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.image-container-bg{
+    background-image: linear-gradient(#2635CF,#352A8C);
+    width: 27%;
+    padding: 0.4rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
