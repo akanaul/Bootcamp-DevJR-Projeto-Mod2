@@ -57,7 +57,7 @@ button:hover{
 .header-title{
     color: #FECD23;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-bottom: 0.9rem;
 }
@@ -67,7 +67,8 @@ button:hover{
     font-size: 1.1rem;
     text-align: center;
     padding: 0.5rem;
-    margin-bottom: 0.3rem;
+    font-weight: 500;
+
 }
 
 .brinde{
@@ -75,7 +76,8 @@ button:hover{
 }
 .second-container{
     background-image: linear-gradient(#651F71,#0D0011);
-    margin:auto;
+    margin: auto;
+    margin-top: 2rem;
 
 
     width: 750px;
@@ -91,6 +93,9 @@ button:hover{
     text-align: center;
     padding: 0.3rem;
 }
+.image-group{
+    text-align: center;
+}
 
 .third-container{
     display: flex;
@@ -104,6 +109,7 @@ button:hover{
     font-weight: 500;
     font-size: 1.2rem;
     padding-top: 1rem;
+
 }
 .image-container-bg{
     background-image: linear-gradient(#2635CF,#352A8C);
@@ -120,5 +126,31 @@ button:hover{
     margin-bottom: 10px;
     font-size: 0.7rem;
     font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
+    html{
+        font-size: 12px;
+    }
+
+    .container{
+        width: 95%;
+    }
+    .second-container{
+        width: 95%;
+    }
+
+    .third-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container-bg{
+        width: 75%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
 }
 
